@@ -20,6 +20,7 @@ variables:
       #This dir contains html test output
       #mkdir -p ${TEST_REPORTS}/${GIT_FOLDER}
       #cp -r $GIT_FOLDER/build/reports/tests/* ${TEST_REPORTS}/${GIT_FOLDER}
+      #test change
   - &run-dockerbuild
     name: Build and Push Service Docker Image
     command: |
